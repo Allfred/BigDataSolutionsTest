@@ -4,7 +4,7 @@ from datetime import  datetime
 
 result = {}
 datas=[]
-with open('trades.csv', 'r') as fp:
+with open('input.csv', 'r') as fp:
     reader = csv.reader(fp, delimiter=',', quotechar='"')
 
     for val in reader:
